@@ -1,6 +1,6 @@
-# Daintree ( e-commerce platform )
+# Bistro-boss ( e-commerce platform )
 
-An e-commerce platform developed with Django and Django Rest Framework, providing a smooth shopping experience for users. Features include user registration and login, product browsing, cart management, secure checkout with PayPal integration and SSL, and order history tracking in customer profiles. Even guest users can shop hassle-free. Also, product lists and details can be fetched with REST APIs.
+An food-e-commerce platform developed with React and React Rest Framework, providing a smooth shopping experience for users. Features include user registration and login, product browsing, cart management, secure checkout with stripe, and order history tracking in customer profiles. Even guest users can shop hassle-free. Also, product lists and details can be fetched with REST APIs.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ An e-commerce platform developed with Django and Django Rest Framework, providin
 
 ## Overview
 
-Welcome to my E-Commerce Platform, a robust and user-friendly online shopping solution built with Django and Django Rest Framework. Our platform offers a rich set of features for both registered and guest users.
+I'm excited to share my project, a Food Market website built from the ground up using React.js, where users can explore a wide variety of delicious food options, add items to their cart, and place orders with a seamless payment process.
 
 **Key Features :**
 
