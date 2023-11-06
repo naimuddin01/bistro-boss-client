@@ -50,8 +50,8 @@ npm install
 ```
 
 **Set up Firebase:**
-Make sure you have a Firebase project created on the Firebase Console.
-Install Firebase CLI if you haven't already:
+- Make sure you have a Firebase project created on the Firebase Console.
+- Install Firebase CLI if you haven't already:
 ```bash
 npm install -g firebase-tools
 ```
@@ -59,6 +59,12 @@ Authenticate with Firebase and select your project:
 ```bash
 firebase login
 firebase use --add
+```
+
+**Usage:**
+Explain how to use your project. Include any specific commands or scripts that users need to run. For example:
+```bash
+npm start
 ```
 
 ### Configure the .env.local file
@@ -76,11 +82,16 @@ VITE_storageBucket= your-project-storageBucket
 VITE_messagingSenderId= your-project-messagingSenderId
 VITE_appId= your-project-appId
 
-# stripe Credentials
-SSL_STORE_ID = your-store-id
-SSL_STORE_PASSWOED = your-store-password
-SSL_VERIFY_KEY = your-ssl-account-verify-key
-SSL_VERIFY_SIGN = your-ssl-account-verify-sign
+# Set up Stripe:
+- To use Stripe for payment processing, you need to have a Stripe account. If you don't have one, you can sign up at Stripe.
+
+- In your Stripe Dashboard, go to the API section and generate your API keys.
+
+- .env.local file in the project root directory and add your Stripe API key as an environment variable. Make sure to prefix it with VITE_ to make it available in your Vite application. For example:
+
+```bash
+VITE_Payment_Getway_pk=your-stripe-api-key
+```
 
 **Set Up the Database**
 
