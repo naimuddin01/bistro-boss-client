@@ -55,7 +55,7 @@ npm install
 ```bash
 npm install -g firebase-tools
 ```
-Authenticate with Firebase and select your project:
+- Authenticate with Firebase and select your project:
 ```bash
 firebase login
 firebase use --add
