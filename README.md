@@ -39,41 +39,48 @@ Follow these steps to set up and run this e-commerce platform on your local mach
 **Clone the Repository**
 
 ```bash
-git clone https://github.com/AAhadNur/e-commerce_website.git
+https://github.com/naimuddin01/bistro-boss-client.git
 ```
 
-**Create a Virtual Environment and Activate**
+**Install project dependencies:**
 
 ```bash
-python -m venv venv
-source venv/bin/activate
+cd your-project
+npm install
 ```
 
-**Install Dependencies**
-
+**Set up Firebase:**
+Make sure you have a Firebase project created on the Firebase Console.
+Install Firebase CLI if you haven't already:
 ```bash
-pip install -r requirements.txt
+npm install -g firebase-tools
+```
+Authenticate with Firebase and select your project:
+```bash
+firebase login
+firebase use --add
 ```
 
-### Configure the .env file
+### Configure the .env.local file
 
-Create a `.env` file in the project root directory. Add the following environment variables to your `.env` file with your actual values:
+Create a `.env.local` file in the project root directory. Add the following environment variables to your `.env` file with your actual values:
 
 ```
-# Django
-SECRET_KEY = your-project-secret-key
-DEBUG = True
+# Firebase
+##Create a Firebase project , and 
+SECRET_KEY = your-project-apiKey
+VITE_apiKey= your-project-apiKey
+VITE_authDomain= your-project-authDomain
+VITE_projectId= your-project-projectId
+VITE_storageBucket= your-project-storageBucket
+VITE_messagingSenderId= your-project-messagingSenderId
+VITE_appId= your-project-appId
 
-# SSL Credentials
+# stripe Credentials
 SSL_STORE_ID = your-store-id
 SSL_STORE_PASSWOED = your-store-password
 SSL_VERIFY_KEY = your-ssl-account-verify-key
 SSL_VERIFY_SIGN = your-ssl-account-verify-sign
-
-# Paypal Credentials
-PAYPAL_CLIENT_ID = your-client-id
-PAYPAL_SECRET_ID = your-secret-id
-```
 
 **Set Up the Database**
 
