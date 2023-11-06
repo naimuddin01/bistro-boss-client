@@ -92,7 +92,7 @@ VITE_appId= your-project-appId
 VITE_Payment_Getway_pk=your-stripe-api-key
 ```
 
-**Set Up the Database**
+# **Set Up the Database**
 
 1. **Register with the Payment Gateway:** Sign up [here](https://developer.sslcommerz.com/registration/) for an account with the chosen payment gateway. During registration, you will receive API credentials, such as API keys and other relevant information.
 
