@@ -81,7 +81,7 @@ VITE_messagingSenderId= your-project-messagingSenderId
 VITE_appId= your-project-appId
 ```
 
-# Set up Stripe:
+### Set up Stripe:
 - To use Stripe for payment processing, you need to have a Stripe account. If you don't have one, you can sign up at Stripe.
 
 - In your Stripe Dashboard, go to the API section and generate your API keys.
@@ -94,53 +94,7 @@ VITE_Payment_Getway_pk=your-stripe-api-key
 
 **Set Up the Database**
 
-```bash
-python manage.py makemigrations
-python manage.py migrate
-```
-
-**Load Initial data**
-
-```bash
-python manage.py loaddata data.json
-```
-
-**Run the Development Server**
-
-```bash
-python manage.py runserver
-```
-
-### SSL Integration
-
-General steps to integrate SSLcommerze payment system
-
 1. **Register with the Payment Gateway:** Sign up [here](https://developer.sslcommerz.com/registration/) for an account with the chosen payment gateway. During registration, you will receive API credentials, such as API keys and other relevant information.
-
-2. **Install Required Packages:** Required packages are already installed if you install the `requirements.txt` file. But you can install sslcommerze package manually by running the following command
-
-```bash
-pip install sslcommerz-lib
-```
-
-3. **Configure .env file as described before:**
-   For more info [see this](https://github.com/sslcommerz/SSLCommerz-Python)
-
-### Paypal Integration
-
-Similar to SSL integration for you.
-
-1. **Create a PayPal Business Account:** Create a PayPal Business Account from [here](https://www.sandbox.paypal.com/bizsignup/#/singlePageSignup)
-
-2. **Obtain API Credentials:**
-
-- Log in to your PayPal Business Account.
-- Go to the Developer Dashboard.
-- Create a sandbox (test) account to obtain the API credentials for testing.
-- After testing, you'll obtain live API credentials for production.
-
-3. **Configure .env file as described before:**
-   For more info [see this](https://medium.com/@ahmedtouahria2001/paypal-payment-with-django-rest-framework-best-practices-dcac7430c0c)
 
 ## Expectation
 
