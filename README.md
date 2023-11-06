@@ -72,8 +72,6 @@ npm start
 Create a `.env.local` file in the project root directory. Add the following environment variables to your `.env` file with your actual values:
 
 ```
-# Firebase
-##Create a Firebase project , and 
 SECRET_KEY = your-project-apiKey
 VITE_apiKey= your-project-apiKey
 VITE_authDomain= your-project-authDomain
@@ -81,6 +79,7 @@ VITE_projectId= your-project-projectId
 VITE_storageBucket= your-project-storageBucket
 VITE_messagingSenderId= your-project-messagingSenderId
 VITE_appId= your-project-appId
+```
 
 # Set up Stripe:
 - To use Stripe for payment processing, you need to have a Stripe account. If you don't have one, you can sign up at Stripe.
