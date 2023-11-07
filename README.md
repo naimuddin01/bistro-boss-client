@@ -6,9 +6,11 @@ An food-e-commerce platform developed with React and React Rest Framework, provi
 
 - [Overview](#overview)
 - [Project Installation](#project-installation)
-  - [Environment Variable](#configure-the-env-file)
+  - [Environment Variable_fontend](#configure-the-env-file-fontend)
   - [Stripe Integration](#Set-up-Stripe)
-  - [Paypal Integration](#paypal-integration)
+  - [Backend and Database](#Set-Up-the-Backend-and-Database)
+  - [Environment Variable_backend](#configure-the-env-file-backend)
+
 - [Expectation](#expectation)
 - [Future Work](#future-works)
 
@@ -51,10 +53,6 @@ npm install
 
 **Set up Firebase:**
 - Make sure you have a Firebase project created on the Firebase Console.
-- Install Firebase CLI if you haven't already:
-```bash
-npm install -g firebase-tools
-```
 - Authenticate with Firebase and select your project:
 ```bash
 firebase login
@@ -67,7 +65,7 @@ Explain how to use your project. Include any specific commands or scripts that u
 npm start
 ```
 
-### Configure the .env.local file
+### Configure the .env.local file fontend
 
 Create a `.env.local` file in the project root directory. Add the following environment variables to your `.env` file with your actual values:
 
@@ -108,13 +106,7 @@ cd your-project
 npm install
 ```
 
-**Install project dependencies:**
-
-```bash
-cd your-project
-npm install
-```
-### Configure the .env file
+### Configure the .env file backend
 
 Explain how to set up the necessary configuration, especially the .env file.
 1. Create a .env file in the project root directory:
