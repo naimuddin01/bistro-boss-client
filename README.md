@@ -92,12 +92,12 @@ VITE_Payment_Getway_pk=your-stripe-api-key
 - set SECRET_KEY in backend 
 
 # **Set Up the Backend and Database**
-**Here is the Backend Code : ** [Backend](https://developer.sslcommerz.com/registration/) 
+**Here is the Backend Code : ** [Backend](https://github.com/naimuddin01/bistro-boss-server) 
 Provide step-by-step instructions on how to install and set up your project. Include any necessary commands or configuration steps. For example:
 
 **Clone the Repository**
 ```bash
-https://github.com/naimuddin01/bistro-boss-client.git
+https://github.com/naimuddin01/bistro-boss-server.git
 ```
 
 **Install project dependencies:**
