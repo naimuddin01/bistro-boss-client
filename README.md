@@ -7,7 +7,7 @@ An food-e-commerce platform developed with React and React Rest Framework, provi
 - [Overview](#overview)
 - [Project Installation](#project-installation)
   - [Environment Variable](#configure-the-env-file)
-  - [SSL Integration](#ssl-integration)
+  - [Stripe Integration](#Set-up-Stripe)
   - [Paypal Integration](#paypal-integration)
 - [Expectation](#expectation)
 - [Future Work](#future-works)
