@@ -91,11 +91,10 @@ VITE_appId= your-project-appId
 ```bash
 VITE_Payment_Getway_pk=your-stripe-api-key
 ```
+- set SECRET_KEY in backend 
 
 # **Set Up the Backend and Database**
-
-1. **Register with the Payment Gateway:** Sign up [here](https://developer.sslcommerz.com/registration/) for an account with the chosen payment gateway. During registration, you will receive API credentials, such as API keys and other relevant information.
-
+**Here is the Backend Code : ** [Backend](https://developer.sslcommerz.com/registration/) 
 Provide step-by-step instructions on how to install and set up your project. Include any necessary commands or configuration steps. For example:
 
 **Clone the Repository**
@@ -124,9 +123,13 @@ Explain how to set up the necessary configuration, especially the .env file.
    ```
 2. Add the following environment variables to your .env file:
     ```bash
+    DB_User=your-mongoBD-project-userName
+    DB_PASS=your-mongoBD-project-PASS
     MONGODB_URI=your_mongodb_connection_string
-    JWT_SECRET=your_secret_key
+    Access_TOKEN_SECRET=your_secret_key
+    PAYMENT_SECRET_KEY=your-stripe-SECRET_KEY
    ```
+    
 ## Expectation
 
 The expectations for my e-commerce platform project built using Django and Django Rest Framework can be outlined as follows:
@@ -135,7 +138,7 @@ The expectations for my e-commerce platform project built using Django and Djang
 
 2. **Authentication and User Profiles**
 
-3. **Product Catalog**
+3. **Food Catalog**
 
 4. **Secure Payment Processing**
 
@@ -151,4 +154,4 @@ The expectations for my e-commerce platform project built using Django and Djang
 
 Here are some potential future work areas to consider:
 
-1. **Product Recommendations:** Implement recommendation algorithms to suggest products to users based on their browsing and purchase history.
+1. **Food Recommendations:** Implement recommendation algorithms to suggest products to users based on their browsing and purchase history.
