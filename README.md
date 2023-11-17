@@ -26,13 +26,11 @@ I'm excited to share my project, a Food Market website built from the ground up 
 
 3. **Shopping Cart:** Add items to the cart and manage quantities. Easily review and modify your cart's contents.
 
-4. **Secure Checkout:** Integration with PayPal and SSL for secure and trusted payment processing.
+4. **Secure Checkout:** Integration with stripe for secure and trusted payment processing.
 
 5. **Order History:** Completed orders are automatically logged in the user's profile. Easily track past orders and reorder favorite items.
 
-6. **User Reviews:** Allow customers to leave reviews and ratings for products, enhancing trust and providing valuable feedback.
-
-7. **APIs:** Utilize RESTful APIs to retrieve product lists and details programmatically.
+6. **APIs:** Utilize RESTful APIs to retrieve product lists and details programmatically.
 
 ## Project Installation
 
